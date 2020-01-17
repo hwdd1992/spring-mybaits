@@ -391,7 +391,7 @@ public class SqlSessionFactoryBean implements FactoryBean<SqlSessionFactory>, In
    * @throws IOException if loading the config file failed
    */
   protected SqlSessionFactory buildSqlSessionFactory() throws IOException {
-
+      // SqlSessionFactory 是所有 MyBatis 功能的基础
     Configuration configuration;
 
     XMLConfigBuilder xmlConfigBuilder = null;
